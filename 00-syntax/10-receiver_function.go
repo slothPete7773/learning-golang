@@ -2,14 +2,6 @@ package main
 
 import "fmt"
 
-func saySomething(text string) {
-	fmt.Printf("I say: %s\n", text)
-}
-
-func addition(a int, b int) int {
-	return a + b
-}
-
 type NewPerson struct {
 	Name     string
 	LastName string
@@ -20,6 +12,7 @@ type NewPerson struct {
 func (person NewPerson) getFullName() string {
 	return person.Name + " " + person.LastName
 }
+
 func main() {
 	// Simple function
 	// saySomething("Hello World")
