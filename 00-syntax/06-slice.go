@@ -25,4 +25,8 @@ func main() {
 	myArray := [3]int{1, 2, 3}
 	convertedSlice := myArray[:]
 	fmt.Println(convertedSlice)
+
+	fmt.Println("Length of a Slice.")
+	slice := []int{123, 441, 41}
+	fmt.Printf("Length of Slice: %d\n", len(slice))
 }

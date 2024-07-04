@@ -25,6 +25,10 @@ func main() {
 	arrayD[4] = 1312
 	fmt.Println(arrayD)
 	// Go immediately notify the error out of bound.
-	arrayD[5] = 13122
+	// arrayD[5] = 13122
+
+	// Array 5
+	arrayE := [5]int{123, 441, 41}
+	fmt.Printf("Length of array: %d\n", len(arrayE))
 
 }
